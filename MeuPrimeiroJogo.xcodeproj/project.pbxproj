@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E40355F1238DB06F0044E55C /* MeuJogoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40355F0238DB06F0044E55C /* MeuJogoScene.swift */; };
 		E45DBEDD238C473C00F08047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45DBEDC238C473C00F08047 /* AppDelegate.swift */; };
 		E45DBEE8238C473C00F08047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45DBEE6238C473C00F08047 /* Main.storyboard */; };
 		E45DBEEA238C474000F08047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45DBEE9238C474000F08047 /* Assets.xcassets */; };
 		E45DBEED238C474000F08047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45DBEEB238C474000F08047 /* LaunchScreen.storyboard */; };
 		E45DBEF8238C474000F08047 /* MeuPrimeiroJogoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45DBEF7238C474000F08047 /* MeuPrimeiroJogoTests.swift */; };
 		E45DBF03238C474000F08047 /* MeuPrimeiroJogoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45DBF02238C474000F08047 /* MeuPrimeiroJogoUITests.swift */; };
-		E45DBF11238C49DA00F08047 /* MeuJogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45DBF10238C49DA00F08047 /* MeuJogoViewController.swift */; };
-		E45DBF15238C4BC200F08047 /* MeuJogo.sks in Resources */ = {isa = PBXBuildFile; fileRef = E45DBF14238C4BC200F08047 /* MeuJogo.sks */; };
+		E4652419238DB4EA00C02A77 /* MeuJogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4652418238DB4EA00C02A77 /* MeuJogoViewController.swift */; };
+		E465241B238DB66F00C02A77 /* MinhaCena.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465241A238DB66F00C02A77 /* MinhaCena.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E40355F0238DB06F0044E55C /* MeuJogoScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuJogoScene.swift; sourceTree = "<group>"; };
 		E45DBED9238C473C00F08047 /* MeuPrimeiroJogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeuPrimeiroJogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45DBEDC238C473C00F08047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E45DBEE7238C473C00F08047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,8 +47,8 @@
 		E45DBEFE238C474000F08047 /* MeuPrimeiroJogoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeuPrimeiroJogoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45DBF02238C474000F08047 /* MeuPrimeiroJogoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuPrimeiroJogoUITests.swift; sourceTree = "<group>"; };
 		E45DBF04238C474000F08047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E45DBF10238C49DA00F08047 /* MeuJogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuJogoViewController.swift; sourceTree = "<group>"; };
-		E45DBF14238C4BC200F08047 /* MeuJogo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MeuJogo.sks; sourceTree = "<group>"; };
+		E4652418238DB4EA00C02A77 /* MeuJogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuJogoViewController.swift; sourceTree = "<group>"; };
+		E465241A238DB66F00C02A77 /* MinhaCena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhaCena.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				E45DBEDC238C473C00F08047 /* AppDelegate.swift */,
-				E45DBF10238C49DA00F08047 /* MeuJogoViewController.swift */,
-				E45DBF14238C4BC200F08047 /* MeuJogo.sks */,
-				E40355F0238DB06F0044E55C /* MeuJogoScene.swift */,
+				E465241A238DB66F00C02A77 /* MinhaCena.swift */,
+				E4652418238DB4EA00C02A77 /* MeuJogoViewController.swift */,
 				E45DBEE6238C473C00F08047 /* Main.storyboard */,
 				E45DBEE9238C474000F08047 /* Assets.xcassets */,
 				E45DBEEB238C474000F08047 /* LaunchScreen.storyboard */,
@@ -235,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E45DBF15238C4BC200F08047 /* MeuJogo.sks in Resources */,
 				E45DBEE8238C473C00F08047 /* Main.storyboard in Resources */,
 				E45DBEEA238C474000F08047 /* Assets.xcassets in Resources */,
 				E45DBEED238C474000F08047 /* LaunchScreen.storyboard in Resources */,
@@ -263,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E40355F1238DB06F0044E55C /* MeuJogoScene.swift in Sources */,
 				E45DBEDD238C473C00F08047 /* AppDelegate.swift in Sources */,
-				E45DBF11238C49DA00F08047 /* MeuJogoViewController.swift in Sources */,
+				E465241B238DB66F00C02A77 /* MinhaCena.swift in Sources */,
+				E4652419238DB4EA00C02A77 /* MeuJogoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
