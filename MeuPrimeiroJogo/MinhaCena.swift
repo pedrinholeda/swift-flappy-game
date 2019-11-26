@@ -47,11 +47,17 @@ class MinhaCena: SKScene {
         bolinha.physicsBody?.allowsRotation = true
        
         
+        let borderBody = SKPhysicsBody (edgeLoopFrom: self.frame)
+        borderBody.friction = 0
+        self.physicsBody = borderBody
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
          bolinha.physicsBody?.velocity = CGVector.zero
-         bolinha.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 100))
+         bolinha.physicsBody?.applyImpulse(CGVector(dx: 20, dy: 100))
+         retangulo.physicsBody?.velocity = CGVector.zero
+         retangulo.physicsBody?.applyImpulse(CGVector(dx: -30, dy:  125))
     }
 
 }
