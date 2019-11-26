@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E40355F1238DB06F0044E55C /* MeuJogoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40355F0238DB06F0044E55C /* MeuJogoScene.swift */; };
 		E45DBEDD238C473C00F08047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45DBEDC238C473C00F08047 /* AppDelegate.swift */; };
 		E45DBEE8238C473C00F08047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45DBEE6238C473C00F08047 /* Main.storyboard */; };
 		E45DBEEA238C474000F08047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45DBEE9238C474000F08047 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E40355F0238DB06F0044E55C /* MeuJogoScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuJogoScene.swift; sourceTree = "<group>"; };
 		E45DBED9238C473C00F08047 /* MeuPrimeiroJogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeuPrimeiroJogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45DBEDC238C473C00F08047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E45DBEE7238C473C00F08047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				E45DBEDC238C473C00F08047 /* AppDelegate.swift */,
 				E45DBF10238C49DA00F08047 /* MeuJogoViewController.swift */,
 				E45DBF14238C4BC200F08047 /* MeuJogo.sks */,
+				E40355F0238DB06F0044E55C /* MeuJogoScene.swift */,
 				E45DBEE6238C473C00F08047 /* Main.storyboard */,
 				E45DBEE9238C474000F08047 /* Assets.xcassets */,
 				E45DBEEB238C474000F08047 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40355F1238DB06F0044E55C /* MeuJogoScene.swift in Sources */,
 				E45DBEDD238C473C00F08047 /* AppDelegate.swift in Sources */,
 				E45DBF11238C49DA00F08047 /* MeuJogoViewController.swift in Sources */,
 			);
